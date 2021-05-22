@@ -13,7 +13,7 @@ public class DropdownExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\Robot\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		
 		WebDriver driver = new FirefoxDriver();
 		

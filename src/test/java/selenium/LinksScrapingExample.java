@@ -14,7 +14,7 @@ public class LinksScrapingExample {
 	static WebDriver driver;
 	
 	public static void main(String[] args) {
-		System.setProperty("webdriver.gecko.driver", "C:\\Robot\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		
 		driver = new FirefoxDriver();
 		

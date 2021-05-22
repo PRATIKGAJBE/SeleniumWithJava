@@ -15,7 +15,7 @@ public class BaseSelenium {
 	public static WebDriver driver;
 	
 	public BaseSelenium() {
-		System.setProperty("webdriver.gecko.driver", "C:\\Robot\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.get("https://www.google.com");
 		initialize();
@@ -46,15 +46,15 @@ public class BaseSelenium {
 		
 		switch (browser) {
 		case "chrome": 
-			System.setProperty("webdriver.chrome.driver", "D:\\SOFT DOWNLOAD\\Selenium Workshop\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 			driver = new ChromeDriver();	
 			break;
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver", "C:\\Robot\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 			driver = new FirefoxDriver();
 			break;
 		default:
-			System.setProperty("webdriver.gecko.driver", "C:\\Robot\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 			driver = new FirefoxDriver();
 			break;
 		}

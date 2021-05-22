@@ -10,8 +10,8 @@ public class BrowserNavigation {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "D:\\SOFT DOWNLOAD\\Selenium Workshop\\chromedriver.exe");
-		System.setProperty("webdriver.gecko.driver", "C:\\Robot\\geckodriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		
 		//WebDriver driver = new ChromeDriver();
 		WebDriver driver = new FirefoxDriver();

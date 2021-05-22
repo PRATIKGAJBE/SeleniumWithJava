@@ -19,7 +19,7 @@ public class GoogleSearchTestNG {
 	
 	@BeforeClass
 	public void setUpClass() {
-		System.setProperty("webdriver.gecko.driver", "C:\\Robot\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

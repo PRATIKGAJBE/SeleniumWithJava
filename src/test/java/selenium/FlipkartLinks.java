@@ -15,7 +15,7 @@ public class FlipkartLinks {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\Robot\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		
 		driver = new FirefoxDriver();
 		
